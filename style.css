@@ -1,0 +1,22 @@
+table {
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+th {
+    background-color: lightpink;
+    border: 1px solid black;
+}
+tr {
+    border-bottom: 1px solid black;
+}
+td:first-child{
+    background-color: azure;
+    font-weight: 700;
+    text-align: center;
+    padding: 0;
+}
+td {
+    padding-left: 10px;
+}
